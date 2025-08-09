@@ -1,6 +1,6 @@
-# 新手培训项目 (Newcomer Training)
+# 视觉组培训项目 (Newcomer Training)
 
-欢迎来到新手培训项目！本项目旨在为新手提供VMware Ubuntu可视化项目的培训材料和指导。
+欢迎来到视觉组培训项目！本项目旨在为新手提供VMware Ubuntu可视化项目的培训材料和指导。
 
 ## 📋 项目概述
 
@@ -12,7 +12,7 @@
 FosuRMTraning/
 ├── README.md                                    # 本文件
 ├── VMware_Ubuntu_Visual_Project_Template.pdf    # VMware Ubuntu可视化项目模板文档
-└── .git/                                       # Git版本控制
+└── .git/                                        # Git版本控制
 ```
 
 ## 📚 培训内容
@@ -37,7 +37,7 @@ FosuRMTraning/
 
 ### 前置要求
 
-- VMware Workstation 或 VMware Player
+- VMware Workstation Pro
 - Ubuntu系统镜像
 - 基础的Linux命令行知识
 
@@ -68,7 +68,6 @@ FosuRMTraning/
 - **虚拟化**: VMware
 - **操作系统**: Ubuntu Linux
 - **版本控制**: Git
-- **可视化工具**: (根据项目需求而定)
 
 ## 📝 学习进度追踪
 
@@ -83,20 +82,14 @@ FosuRMTraning/
 如果您在学习过程中发现问题或有改进建议，欢迎：
 
 1. 提交Issue报告问题
-2. Fork项目并提交Pull Request
-3. 分享学习心得和经验
+2. 分享学习心得和经验
 
 ## 📞 支持与反馈
 
 如果在学习过程中遇到问题，可以通过以下方式获取帮助：
 
 - 查阅项目文档
-- 在Issues中搜索相关问题
-- 联系培训导师或同学
-
-## 📄 许可证
-
-本项目采用MIT许可证，详情请查看LICENSE文件。
+- 联系培训同学
 
 ## 🏷️ 标签
 
@@ -106,4 +99,4 @@ FosuRMTraning/
 
 **祝您学习愉快！🎉**
 
-> 如有任何问题，请随时提出。记住，每个专家都曾经是初学者！
+> 如有任何问题，请随时提出！
