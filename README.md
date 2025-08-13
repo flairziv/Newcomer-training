@@ -136,20 +136,14 @@ curl -L -O https://github.com/flairziv/Newcomer-training/releases/download/v1.0.
 如果您在学习过程中发现问题或有改进建议，欢迎：
 
 1. 提交Issue报告问题
-2. Fork项目并提交Pull Request
-3. 分享学习心得和经验
+2. 分享学习心得和经验
 
 ## 📞 支持与反馈
 
 如果在学习过程中遇到问题，可以通过以下方式获取帮助：
 
 - 查阅项目文档
-- 在Issues中搜索相关问题
-- 联系培训导师或同学
-
-## 📄 许可证
-
-本项目采用MIT许可证，详情请查看LICENSE文件。
+- 联系培训同学
 
 ## 🏷️ 标签
 
