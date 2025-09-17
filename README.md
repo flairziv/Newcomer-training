@@ -11,7 +11,8 @@
 ```
 FosuRMTraning/
 ├── README.md                                    # 本文件
-├── VMware_Ubuntu_Visual_Project_Template.pdf    # VMware Ubuntu可视化项目模板文档
+├── VMware_Ubuntu_Visual_Project_Template.pdf    # VMware Ubuntu可视化项目文档
+├── MATLAB_Camera_Calibration_Training.pdf       # Matlab相机标定可视化项目文档
 └── .git/                                        # Git版本控制
 ```
 
@@ -29,7 +30,13 @@ FosuRMTraning/
    - 开发工具配置
    - 基础概念学习
 
-3. **实践项目**
+3. **MATLAB相机标定**
+   - MATLAB相机标定工具箱使用
+   - 相机内参和外参标定
+   - 畸变矫正与精度评估
+   - 标定数据处理与分析
+
+4. **实践项目**
    - 跟随模板文档进行实际项目开发
    - 问题解决与调试技巧
 
@@ -39,6 +46,8 @@ FosuRMTraning/
 
 - VMware Workstation 或 VMware Player
 - Ubuntu系统镜像
+- MATLAB软件（包含Computer Vision Toolbox）
+- 相机标定板或标定图案
 - 基础的Linux命令行知识
 
 ### 学习步骤
@@ -57,25 +66,37 @@ FosuRMTraning/
    - 按照模板文档进行项目开发
    - 完成相关练习和作业
 
+4. **MATLAB相机标定实践**
+   - 准备标定图案和相机设备
+   - 使用MATLAB相机标定工具箱
+   - 完成相机内参外参标定
+   - 进行畸变矫正和精度验证
+
 ## 📖 学习资源
 
 - [VMware官方文档](https://docs.vmware.com/)
 - [Ubuntu官方指南](https://ubuntu.com/tutorials)
 - [Git版本控制教程](https://git-scm.com/docs)
+- [MATLAB相机标定文档](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
+- [计算机视觉基础教程](https://www.mathworks.com/help/vision/)
 
 ## 🛠️ 技术栈
 
 - **虚拟化**: VMware
 - **操作系统**: Ubuntu Linux
 - **版本控制**: Git
+- **开发环境**: MATLAB (Computer Vision Toolbox)
+- **相机标定**: MATLAB Camera Calibration Toolbox
 - **可视化工具**: (根据项目需求而定)
 
 ## 📝 学习进度追踪
 
 - [ ] 完成VMware环境搭建
 - [ ] 成功安装Ubuntu系统
+- [ ] 安装并配置MATLAB环境
 - [ ] 阅读完成项目模板文档
-- [ ] 完成第一个实践项目
+- [ ] 学习MATLAB相机标定工具箱
+- [ ] 完成相机标定实践项目
 - [ ] 掌握基础调试技能
 
 ## 📥 如何从 GitHub Release 下载文件
@@ -147,7 +168,7 @@ curl -L -O https://github.com/flairziv/Newcomer-training/releases/download/v1.0.
 
 ## 🏷️ 标签
 
-`培训` `新手` `VMware` `Ubuntu` `可视化` `教程` `入门`
+`培训` `新手` `VMware` `Ubuntu` `可视化` `教程` `入门` `MATLAB` `相机标定` `计算机视觉`
 
 ---
 
