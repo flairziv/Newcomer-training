@@ -1,10 +1,10 @@
 # 视觉组培训项目 (Newcomer Training)
 
-欢迎来到视觉组培训项目！本项目旨在为新手提供VMware Ubuntu可视化项目的培训材料和指导。
+欢迎来到视觉组培训项目！本项目旨在为新手提供计算机视觉领域的全面培训材料和指导。
 
 ## 📋 项目概述
 
-本培训项目专注于VMware Ubuntu环境下的可视化项目开发，为初学者提供从入门到实践的完整学习路径。
+本培训项目涵盖了计算机视觉领域的多个重要方向，包括环境搭建、相机标定、目标检测等核心技术，为初学者提供从基础环境配置到实际项目应用的完整学习路径。通过VMware虚拟化技术、MATLAB工具箱和深度学习框架的综合运用，帮助大家掌握现代计算机视觉开发的关键技能。
 
 ## 📁 项目结构
 
@@ -13,6 +13,7 @@ FosuRMTraning/
 ├── README.md                                    # 本文件
 ├── VMware_Ubuntu_Visual_Project_Template.pdf    # VMware Ubuntu可视化项目文档
 ├── MATLAB_Camera_Calibration_Training.pdf       # Matlab相机标定可视化项目文档
+├── YOLOv8_RoboMaster_Training.pdf               # YOLOv8 RoboMaster目标检测培训文档
 └── .git/                                        # Git版本控制
 ```
 
@@ -36,7 +37,13 @@ FosuRMTraning/
    - 畸变矫正与精度评估
    - 标定数据处理与分析
 
-4. **实践项目**
+4. **YOLOv8目标检测与RoboMaster应用**
+   - YOLOv8模型架构与原理
+   - RoboMaster比赛目标检测任务
+   - 模型训练与数据处理
+   - 实时检测与性能优化
+
+5. **实践项目**
    - 跟随模板文档进行实际项目开发
    - 问题解决与调试技巧
 
@@ -47,6 +54,8 @@ FosuRMTraning/
 - VMware Workstation 或 VMware Player
 - Ubuntu系统镜像
 - MATLAB软件（包含Computer Vision Toolbox）
+- Python 3.8+ 环境
+- PyTorch深度学习框架
 - 相机标定板或标定图案
 - 基础的Linux命令行知识
 
@@ -55,6 +64,8 @@ FosuRMTraning/
 1. **阅读培训文档**
    ```
    查看 VMware_Ubuntu_Visual_Project_Template.pdf 文档
+   查看 MATLAB_Camera_Calibration_Training.pdf 文档
+   查看 YOLOv8_RoboMaster_Training.pdf 文档
    ```
 
 2. **环境准备**
@@ -72,6 +83,12 @@ FosuRMTraning/
    - 完成相机内参外参标定
    - 进行畸变矫正和精度验证
 
+5. **YOLOv8目标检测项目**
+   - 阅读YOLOv8_RoboMaster_Training.pdf文档
+   - 搭建Python深度学习环境
+   - 准备RoboMaster数据集
+   - 训练和部署YOLOv8模型
+
 ## 📖 学习资源
 
 - [VMware官方文档](https://docs.vmware.com/)
@@ -79,6 +96,9 @@ FosuRMTraning/
 - [Git版本控制教程](https://git-scm.com/docs)
 - [MATLAB相机标定文档](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
 - [计算机视觉基础教程](https://www.mathworks.com/help/vision/)
+- [YOLOv8官方文档](https://docs.ultralytics.com/models/yolov8/)
+- [PyTorch官方教程](https://pytorch.org/tutorials/)
+- [RoboMaster官方网站](https://www.robomaster.com/)
 
 ## 🛠️ 技术栈
 
@@ -87,6 +107,9 @@ FosuRMTraning/
 - **版本控制**: Git
 - **开发环境**: MATLAB (Computer Vision Toolbox)
 - **相机标定**: MATLAB Camera Calibration Toolbox
+- **深度学习**: Python, PyTorch/TensorFlow
+- **目标检测**: YOLOv8
+- **应用领域**: RoboMaster机器人竞赛
 - **可视化工具**: (根据项目需求而定)
 
 ## 📝 学习进度追踪
@@ -94,9 +117,12 @@ FosuRMTraning/
 - [ ] 完成VMware环境搭建
 - [ ] 成功安装Ubuntu系统
 - [ ] 安装并配置MATLAB环境
+- [ ] 配置Python深度学习环境
 - [ ] 阅读完成项目模板文档
 - [ ] 学习MATLAB相机标定工具箱
 - [ ] 完成相机标定实践项目
+- [ ] 学习YOLOv8目标检测原理
+- [ ] 完成RoboMaster目标检测项目
 - [ ] 掌握基础调试技能
 
 ## 📥 如何从 GitHub Release 下载文件
@@ -168,7 +194,7 @@ curl -L -O https://github.com/flairziv/Newcomer-training/releases/download/v1.0.
 
 ## 🏷️ 标签
 
-`培训` `新手` `VMware` `Ubuntu` `可视化` `教程` `入门` `MATLAB` `相机标定` `计算机视觉`
+`培训` `新手` `VMware` `Ubuntu` `可视化` `教程` `入门` `MATLAB` `相机标定` `计算机视觉` `YOLOv8` `目标检测` `RoboMaster` `深度学习` `PyTorch`
 
 ---
 
